@@ -5,9 +5,11 @@ public class Min_Max_Array {
         System.out.print("Enter the size of array: ");
         int size = input.nextInt();
         int[] arr = new int[size];
-        System.out.print("Enter the array: ");
+
         int max = 0;
+        //loop for input of array
         for(int i = 0 ; i <size ; i++){
+            System.out.print("Enter the number: ");
             arr[i] = input.nextInt();
         }
         int min = arr[0];
