@@ -2,6 +2,7 @@ import java.util.*;
 public class String_Length {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+        System.out.print("Enter the size of the array: ");
         int size = input.nextInt();
         String arr[] = new String[size];
         int length = 0 ;
