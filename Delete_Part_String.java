@@ -2,14 +2,15 @@ import java.util.*;
 public class Delete_Part_String {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        String sb = input.next();
+        System.out.print("Enter you email: ");
+        String email = input.next();
         String result = "";
-        for(int i = 0 ; i < sb.length() ; i++){
-            if(sb.charAt(i) == '@'){
+        for(int i = 0 ; i < email.length() ; i++){
+            if(email.charAt(i) == '@'){
                 break;
             }
             else{
-                result = result + sb.charAt(i);
+                result = result + email.charAt(i);
             }
         }
         System.out.println(result);
